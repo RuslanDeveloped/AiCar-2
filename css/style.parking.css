@@ -1287,6 +1287,10 @@ input {
     text-transform: uppercase;
     background-color: #2D2D2D;
   }
+  
+  .img {
+    top: 115px;
+  }
 
 }
 
