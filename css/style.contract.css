@@ -179,7 +179,7 @@ body {
 
 .condition__blog img {
   position: absolute;
-  top: 30px;
+  top: 0;
   left: 0;
   z-index: 11;
 }
