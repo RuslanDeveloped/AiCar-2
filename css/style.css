@@ -1400,16 +1400,6 @@ padding:0 50px;
     margin: 15px 0 18px 0;
 }
 
-  .adress {
-    margin-top: 25px;
-    margin-left: 50px;
-  }
-
-  .contacts {
-    margin-top: 25px;
-    position: relative;
-    padding: 0 50px;
-}
 
   .butn__foot {
     padding: 15px 15px;
@@ -1423,10 +1413,41 @@ padding:0 50px;
     text-transform: uppercase;
     background-color: #2D2D2D;
   }
-  
-  .img {
-    top: 115px;
+
+  .adress {
+    margin-left: 0;
   }
+
+  .contacts {
+    margin-top: 50px;
+  }
+
+  .contacts h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+  }
+
+  .phone {
+    position: absolute;
+    left: 5px;
+    top: 13px;
+  }
+
+  .letter {
+    position: absolute;
+    top: 45px;
+    left: 0;
+  }
+
+  .podval {
+    padding: 10px 0 0 20px;
+    height: 641px;
+}
+
+.img {
+    top: 115px;
+}
 
 }
 

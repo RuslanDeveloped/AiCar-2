@@ -813,6 +813,41 @@ padding:0 50px;
     top: 115px;
   }
 
+  .adress {
+    margin-left: 0;
+  }
+
+  .contacts {
+    margin-top: 50px;
+  }
+
+  .contacts h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+  }
+
+  .phone {
+    position: absolute;
+    left: 5px;
+    top: 13px;
+  }
+
+  .letter {
+    position: absolute;
+    top: 45px;
+    left: 0;
+  }
+
+  .podval {
+    padding: 10px 0 0 20px;
+    height: 641px;
+}
+
+.img {
+    top: 115px;
+}
+
 }
 
 @media (max-width: 540px) {
