@@ -112,6 +112,7 @@ body {
 
 .arenda {
   padding: 20px 77px;
+  cursor: pointer;
 
   border-radius: 8px;
 
@@ -140,9 +141,10 @@ body {
   margin-bottom: 18px;
 }
 
-.downtext {
+.downtext,.downtext p {
   font-size: 30px;
   font-weight: 300;
+  margin: 0;
 }
 
 .intro__car {
@@ -527,6 +529,11 @@ input {
 
 .img img {
   padding-right: 20px;
+}
+
+.tel {
+  text-decoration: none;
+  color: #fff;
 }
 
 /*=============================================================================ADAPRIV*/

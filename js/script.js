@@ -17,9 +17,16 @@ $(document).ready(function() {
     });
 
   });
+})
 
-  //this scroll WITH animations in all browsers
+$(document).ready(function() {
 
-  //taken from: http://praveenlobo.com/techblog/how-to-scroll-elements-smoothly-in-javascript-jquery-without-plugins/
+  $('#form').on('click', function() {
 
+    $('#form-under').get(0).scrollIntoView({
+      block: "start",
+      behavior: "smooth"
+    });
+
+  });
 })
